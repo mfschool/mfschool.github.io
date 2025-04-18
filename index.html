@@ -511,66 +511,68 @@
         </div>
     </section>
 
-    <!-- Admission Form -->
+        <!-- Admission Form Section -->
     <section id="admission-form" class="section bg-light">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvFPWi3-rh_fNyUEWW5PEZ_URoI52HgD1acHk3r2ydAVfmkg/viewform?embedded=true" width="640" height="1310" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         <div class="container">
             <h2 class="section-title english-content">Admission Form</h2>
             <h2 class="section-title hindi-content">प्रवेश फॉर्म</h2>
             
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card shadow">
-                        <div class="card-body p-4">
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <label class="form-label english-content">Student Name</label>
-                                        <label class="form-label hindi-content">छात्र का नाम</label>
-                                        <input type="text" class="form-control" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="form-label english-content">Parent Name</label>
-                                        <label class="form-label hindi-content">अभिभावक का नाम</label>
-                                        <input type="text" class="form-control" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="form-label english-content">Contact Number</label>
-                                        <label class="form-label hindi-content">संपर्क नंबर</label>
-                                        <input type="tel" class="form-control" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="form-label english-content">Class Applying For</label>
-                                        <label class="form-label hindi-content">कक्षा के लिए आवेदन</label>
-                                        <select class="form-select" required>
-                                            <option value="">Select Class</option>
-                                            <option value="playgroup">Playgroup</option>
-                                            <option value="nursery">Nursery</option>
-                                            <option value="1">Class 1</option>
-                                            <option value="2">Class 2</option>
-                                            <option value="3">Class 3</option>
-                                            <option value="4">Class 4</option>
-                                            <option value="5">Class 5</option>
-                                            <option value="6">Class 6</option>
-                                            <option value="7">Class 7</option>
-                                            <option value="8">Class 8</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 text-center mt-4">
-                                        <button type="submit" class="btn btn-primary btn-lg px-4">
-                                            <i class="fas fa-paper-plane me-2"></i>
-                                            <span class="english-content">Submit Application</span>
-                                            <span class="hindi-content">आवेदन जमा करें</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                <div class="col-lg-10">
+                    <div class="google-form-container shadow p-3 bg-white rounded">
+                        <!-- Google Form Iframe Directly Embedded Here -->
+                        <iframe 
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSdvFPWi3-rh_fNyUEWW5PEZ_URoI52HgD1acHk3r2ydAVfmkg/viewform?embedded=true" 
+                            width="100%" 
+                            height="1310" 
+                            frameborder="0" 
+                            marginheight="0" 
+                            marginwidth="0"
+                            style="min-height: 1310px; border: none;"
+                            loading="lazy">
+                            Loading admission form...
+                        </iframe>
+                        
+                        <div class="text-center mt-3">
+                            <p class="text-muted english-content">
+                                <i class="fas fa-info-circle me-1"></i>
+                                Having trouble? 
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvFPWi3-rh_fNyUEWW5PEZ_URoI52HgD1acHk3r2ydAVfmkg/viewform" target="_blank">
+                                    Open form in new window
+                                </a>
+                            </p>
+                            <p class="text-muted hindi-content">
+                                <i class="fas fa-info-circle me-1"></i>
+                                समस्या हो रही है? 
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvFPWi3-rh_fNyUEWW5PEZ_URoI52HgD1acHk3r2ydAVfmkg/viewform" target="_blank">
+                                    नई विंडो में खोलें
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Add this CSS to your style section -->
+    <style>
+        .google-form-container {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .google-form-container:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            iframe {
+                min-height: 1500px !important; /* Taller on mobile */
+            }
+        }
+    </style>
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
