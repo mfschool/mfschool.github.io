@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags: These are very important for search engine ranking -->
+    <title>M F Group of Schools | Admissions Open 2025-26 | Fatehpur's Leading Minority Institution</title>
+    <meta name="description"
+        content="Established 1942 | Play School to Class 8th | Minority Status | English & Hindi Medium | Computer Training | Transport | Affordable Fees for BPL Families | M F Group of Schools, Fatehpur">
+    <meta name="keywords"
+        content="school admission Fatehpur, minority school Fatehpur, BPL education, English medium school Fatehpur, affordable school Fatehpur, play school Fatehpur, M F Group of Schools">
+    <meta name="geo.region" content="IN-UP">
+    <meta name="geo.placename" content="Fatehpur">
+    <meta name="author" content="M F Educational Trust">
+
+    <!-- Styles & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Simplified Styles */
+        :root {
+            --primary: #1a73e8;
+            --secondary: #f9a825;
+            --dark: #2d3748;
+            --light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url('up-map-bg.png');
+            background-size: contain;
+            background-position: center 100px;
+            color: var(--dark);
+        }
+
+        .hindi-content {
+            display: none;
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            line-height: 1.8;
+        }
+
+        .language-switch {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('school-building.jpg') center/cover;
+            height: 60vh;
+            color: var(--light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: var(--primary);
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            width: 50%;
+            padding: 0 40px;
+        }
+
+        .timeline-item.left {
+            left: 0;
+            text-align: right;
+        }
+
+        .timeline-item.right {
+            left: 50%;
+            text-align: left;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            width: 20px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--light);
+        }
+
+        .timeline-item.left::before {
+            right: -10px;
+        }
+
+        .timeline-item.right::before {
+            left: -10px;
+        }
+
+        @media (max-width: 767px) {
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                padding-left: 70px !important;
+                padding-right: 25px !important;
+                text-align: left !important;
+            }
+
+            .timeline-item.left,
+            .timeline-item.right {
+                left: 0 !important;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+
+        .admission-card {
+            transition: transform 0.3s ease;
+            border: 2px solid var(--primary);
+        }
+
+        .admission-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .facility-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .facility-card:hover {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Language Switch -->
+    <div class="language-switch">
+        <button class="btn btn-primary" onclick="toggleLanguage()">
+            <i class="fas fa-language"></i> हिंदी
+        </button>
+    </div>
+
+    <!-- Navigation: Improved accessibility with aria-labels -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" aria-label="Main Navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#" aria-label="M F Group of Schools Homepage">
+                <img src="logo.png" alt="MF School Logo" style="height:40px;">
+                <span class="ms-2">M F Group of Schools</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about" aria-label="About Us">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#history" aria-label="Our History">History</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#admission" aria-label="Admissions">Admission</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#facilities" aria-label="Facilities">Facilities</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" aria-label="Contact Us">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Highlight key value proposition with clear call to action-->
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4 english-content">Admissions Open 2025-26</h1>
+            <h1 class="display-4 mb-4 hindi-content">प्रवेश 2025-26 खुले हैं</h1>
+            <p class="lead english-content">Play School to Class 8th | Minority Institution | Affordable Education |
+                Nurturing Futures Since 1942</p>
+            <p class="lead hindi-content">प्ले स्कूल से कक्षा 8वीं तक | अल्पसंख्यक संस्थान | सस्ती शिक्षा | 1942 से भविष्य
+                का पोषण</p>
+            <a href="#admission-form" class="btn btn-primary btn-lg" aria-label="Apply for Admission">
+                <i class="fas fa-file-alt me-2"></i> Apply Now
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section: Clearly showcase unique attributes and values -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title english-content">About M F Group of Schools</h2>
+            <h2 class="section-title hindi-content">एम एफ ग्रुप ऑफ स्कूल्स के बारे में</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="english-content">
+                        <p>Established in 1942, M F Group of Schools is committed to providing accessible, high-quality
+                            education. As a recognized minority institution, we value diversity and inclusivity.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Korra Sadat Campus (Est. 1942) &
+                                Haswa Branch</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Minority Status: Govt. Recognized (F No
+                                204 of 2022/255)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Affordable Fee Structure with BPL
+                                Concessions</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Governed by Indian Trust Act 1882
+                                (Registration Details Available)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Experienced & Dedicated Faculty</li>
+                        </ul>
+                    </div>
+                    <div class="hindi-content">
+                        <p>1942 में स्थापित, एम एफ ग्रुप ऑफ स्कूल्स सुलभ, उच्च गुणवत्ता वाली शिक्षा प्रदान करने के लिए
+                            समर्पित है। एक मान्यता प्राप्त अल्पसंख्यक संस्थान के रूप में, हम विविधता और समावेशिता को महत्व
+                            देते हैं।</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>कोर्रा सादात कैंपस (1942 में स्थापित) और
+                                हसवा शाखा</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>अल्पसंख्यक दर्जा: सरकार द्वारा मान्यता
+                                प्राप्त (एफ नंबर 204 का 2022/255)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>बीपीएल छूट के साथ किफायती शुल्क संरचना</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>भारतीय ट्रस्ट अधिनियम 1882 द्वारा शासित
+                                (पंजीकरण विवरण उपलब्ध)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>अनुभवी और समर्पित शिक्षक</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="classroom.jpg" alt="School Classroom" class="img-fluid rounded shadow"
+                        aria-label="Image of school classroom">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section: Show your long standing commitment and milestones -->
+    <section id="history" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 english-content">Our Journey Since 1942</h2>
+            <h2 class="text-center mb-5 hindi-content">1942 से हमारी यात्रा</h2>
+
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h4 class="english-content">1942</h4>
+                        <h4 class="hindi-content">1942</h4>
+                        <p class="english-content">Founded in Korra Sadat with a vision of inclusive education</p>
+                        <p class="hindi-content">समावेशी शिक्षा की दृष्टि से कोर्रा सादात में स्थापना</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h4 class="english-content">1988</h4>
+                        <h4 class="hindi-content">1988</h4>
+                        <p class="english-content">Officially recognized Society</p>
+                        <p class="hindi-content">आधिकारिक तौर पर मान्यता प्राप्त ट्रस्ट</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h4 class="english-content">2022</h4>
+                        <h4 class="hindi-content">2022</h4>
+                        <p class="english-content">Granted Minority Status</p>
+                        <p class="hindi-content">अल्पसंख्यक दर्जा प्राप्त</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h4 class="english-content">Present</h4>
+                        <h4 class="hindi-content">वर्तमान</h4>
+                        <p class="english-content">Continuing education under the Trust Act 1882</p>
+                        <p class="hindi-content">ट्रस्ट अधिनियम 1882 के तहत शिक्षा जारी रखना</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section: Easy to understand admission process -->
+    <section id="admission" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 english-content">Admission Information</h2>
+            <h2 class="text-center mb-5 hindi-content">प्रवेश जानकारी</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card admission-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-calendar-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Session Start</h5>
+                            <h5 class="hindi-content">सत्र प्रारंभ</h5>
+                            <p class="english-content">April 2025</p>
+                            <p class="hindi-content">अप्रैल 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card admission-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tags fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Affordable Fees</h5>
+                            <h5 class="hindi-content">किफायती शुल्क</h5>
+                            <p class="english-content">Special concessions for BPL families. Contact us for details.</p>
+                            <p class="hindi-content">बीपीएल परिवारों के लिए विशेष छूट। विवरण के लिए संपर्क करें।</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card admission-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-file-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Required Documents</h5>
+                            <h5 class="hindi-content">आवश्यक दस्तावेज़</h5>
+                            <p class="english-content">Aadhaar, Birth Certificate, BPL Certificate (if applicable)</p>
+                            <p class="hindi-content">आधार कार्ड, जन्म प्रमाण पत्र, बीपीएल प्रमाण पत्र (यदि लागू हो)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-responsive mt-5">
+                <h4 class="text-center mb-3 english-content">Age Criteria</h4>
+                <h4 class="text-center mb-3 hindi-content">आयु मानदंड</h4>
+                <table class="table table-bordered">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="english-content">Class</th>
+                            <th class="hindi-content">कक्षा</th>
+                            <th class="english-content">Age Group</th>
+                            <th class="hindi-content">आयु समूह</th>
+                            <th class="english-content">Medium</th>
+                            <th class="hindi-content">माध्यम</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Play School</td>
+                            <td>प्ले स्कूल</td>
+                            <td>2.5-3.5 Years</td>
+                            <td>2.5-3.5 वर्ष</td>
+                            <td>Bilingual</td>
+                            <td>द्विभाषी</td>
+                        </tr>
+                        <tr>
+                            <td>Nursery</td>
+                            <td>नर्सरी</td>
+                            <td>3.5-4.5 Years</td>
+                            <td>3.5-4.5 वर्ष</td>
+                            <td>Bilingual</td>
+                            <td>द्विभाषी</td>
+                        </tr>
+                        <tr>
+                            <td>Class 1-5</td>
+                            <td>कक्षा 1-5</td>
+                            <td>6-10 Years</td>
+                            <td>6-10 वर्ष</td>
+                            <td>Hindi/English</td>
+                            <td>हिंदी/अंग्रेजी</td>
+                        </tr>
+                        <tr>
+                            <td>Class 6-8</td>
+                            <td>कक्षा 6-8</td>
+                            <td>11-14 Years</td>
+                            <td>11-14 वर्ष</td>
+                            <td>Hindi/English</td>
+                            <td>हिंदी/अंग्रेजी</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section: Use high quality images to showcase school amenities -->
+    <section id="facilities" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 english-content">Our Facilities</h2>
+            <h2 class="text-center mb-5 hindi-content">हमारी सुविधाएं</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card facility-card h-100">
+                        <img src="computer-lab.jpg" class="card-img-top" alt="Computer Lab">
+                        <div class="card-body">
+                            <h5 class="english-content">Computer Lab</h5>
+                            <h5 class="hindi-content">कंप्यूटर लैब</h5>
+                            <p class="english-content">Empowering digital skills with modern systems and internet access
+                                (Coming Soon)</p>
+                            <p class="hindi-content">आधुनिक सिस्टम और इंटरनेट के साथ डिजिटल कौशल को सशक्त बनाना (जल्द आ रहा
+                                है)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card facility-card h-100">
+                        <img src="library.jpg" class="card-img-top" alt="Library">
+                        <div class="card-body">
+                            <h5 class="english-content">Library</h5>
+                            <h5 class="hindi-content">पुस्तकालय</h5>
+                            <p class="english-content">A diverse collection of enriching books in both Hindi and English</p>
+                            <p class="hindi-content">हिंदी और अंग्रेजी दोनों भाषाओं में पुस्तकों का एक विविध संग्रह</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card facility-card h-100">
+                        <img src="transport.jpg" class="card-img-top" alt="Transport">
+                        <div class="card-body">
+                            <h5 class="english-content">Transport</h5>
+                            <h5 class="hindi-content">परिवहन</h5>
+                            <p class="english-content">Safe, reliable, and widespread transport services</p>
+                            <p class="hindi-content">सुरक्षित, विश्वसनीय, और व्यापक परिवहन सेवाएं</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section: Make it easy for people to reach you -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 english-content">Contact Us</h2>
+            <h2 class="text-center mb-5 hindi-content">संपर्क करें</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marker-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Address</h5>
+                            <h5 class="hindi-content">पता</h5>
+                            <p class="english-content">
+                                Korra Sadat Campus<br>
+                                Near Post Office<br>
+                                Fatehpur, UP - 212622
+                            </p>
+                            <p class="hindi-content">
+                                कोर्रा सादात कैंपस<br>
+                                डाकघर के निकट<br>
+                                फतेहपुर, उप्र - 212622
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-phone-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Phone Numbers</h5>
+                            <h5 class="hindi-content">फोन नंबर</h5>
+                            <p>
+                                <a href="tel:9650329719">9650329719</a><br>
+                                <a href="tel:9452541133">9452541133</a><br>
+                                <a href="tel:9559299336">9559299336</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-linkedin fa-3x mb-3 text-primary"></i>
+                            <h5 class="english-content">Connect With Us</h5>
+                            <h5 class="hindi-content">हमसे जुड़ें</h5>
+                            <a href="https://linkedin.com/company/m-m-f-trust" target="_blank" class="btn btn-primary">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form: Streamlined and easy to fill -->
+    <section id="admission-form" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 english-content">Admission Form</h2>
+            <h2 class="text-center mb-5 hindi-content">प्रवेश फॉर्म</h2>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="studentName">Student Name</label>
+                    <label class="form-label hindi-content" for="studentName">छात्र का नाम</label>
+                    <input type="text" class="form-control" id="studentName" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="parentName">Parent Name</label>
+                    <label class="form-label hindi-content" for="parentName">अभिभावक का नाम</label>
+                    <input type="text" class="form-control" id="parentName" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="contactNumber">Contact Number</label>
+                    <label class="form-label hindi-content" for="contactNumber">संपर्क नंबर</label>
+                    <input type="tel" class="form-control" id="contactNumber" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="email">Email Address</label>
+                    <label class="form-label hindi-content" for="email">ईमेल पता</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="bpl">Are you Below Poverty Line (BPL)?</label>
+                    <label class="form-label hindi-content" for="bpl">क्या आप गरीबी रेखा से नीचे (बीपीएल) हैं?</label>
+                    <select class="form-select" id="bpl" required>
+                        <option value="">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label english-content" for="classApplying">Class Applying For</label>
+                    <label class="form-label hindi-content" for="classApplying">किस कक्षा के लिए आवेदन कर रहे हैं</label>
+                    <select class="form-select" id="classApplying" required>
+                        <option value="">Select Class</option>
+                        <option value="playgroup">Playgroup</option>
+                        <option value="nursery">Nursery</option>
+                        <option value="lkg">LKG</option>
+                        <option value="ukg">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                    </select>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fas fa-paper-plane me-2"></i>
+                        <span class="english-content">Submit Application</span>
+                        <span class="hindi-content">आवेदन जमा करें</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer:  Key details and contact info in the footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="english-content">M F Group of Schools</h5>
+                    <h5 class="hindi-content">एम एफ ग्रुप ऑफ स्कूल्स</h5>
+                    <p class="small english-content">A beacon of education since 1942</p>
+                    <p class="small hindi-content">1942 से शिक्षा का प्रकाश</p>
+                    <p class="small english-content">
+                        Governed by Indian Trust Act 1882 | Minority Status (F No 204 of 2022/255) | Society Registration
+                        No: 2546/1988-89 | Trust made in 2014
+                    </p>
+                    <p class="small hindi-content">
+                        भारतीय ट्रस्ट अधिनियम 1882 द्वारा शासित | अल्पसंख्यक दर्जा (एफ नंबर 204 का 2022/255) | सोसाइटी
+                        पंजीकरण संख्या: XXXXXXXX | ट्रस्ट 2014 में बनाया गया
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3 english-content">Privacy Policy</a>
+                    <a href="#" class="text-white english-content">Terms of Service</a>
+                    <div class="mt-2">
+                        <p class="small english-content">
+                            Contact for Admission: <a href="tel:9650329719" class="text-white">9650329719</a>, <a
+                                href="tel:9452541133" class="text-white">9452541133</a>, <a
+                                href="tel:9559299336" class="text-white">9559299336</a>
+                        </p>
+                        <p class="small hindi-content">
+                            प्रवेश के लिए संपर्क करें: <a href="tel:9650329719" class="text-white">9650329719</a>, <a
+                                href="tel:9452541133" class="text-white">9452541133</a>, <a
+                                href="tel:9559299336" class="text-white">9559299336</a>
+                        </p>
+                    </div>
+                    <div class="mt-3">
+                        <p class="small english-content">© 2023 M F Educational Trust</p>
+                        <p class="small hindi-content">© 2023 एम एफ एजुकेशनल ट्रस्ट</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Language Toggle Script -->
+    <script>
+        function toggleLanguage() {
+            const englishContent = document.querySelectorAll('.english-content');
+            const hindiContent = document.querySelectorAll('.hindi-content');
+            const toggleBtn = document.querySelector('.language-switch button');
+
+            englishContent.forEach(el => el.style.display =
+                el.style.display === 'none' ? 'block' : 'none');
+            hindiContent.forEach(el => el.style.display =
+                el.style.display === 'block' ? 'none' : 'block');
+
+            if (toggleBtn.innerHTML.includes('हिंदी')) {
+                toggleBtn.innerHTML = '<i class="fas fa-language"></i> English';
+            } else {
+                toggleBtn.innerHTML = '<i class="fas fa-language"></i> हिंदी';
+            }
+        }
+    </script>
+</body>
+
+</html>
